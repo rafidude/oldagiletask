@@ -1,0 +1,13 @@
+API has the following abilities
+  Identifies customers by login
+  Has a vanity URL (Initially /customerurl)
+  Dashboard with multiple widgets
+  
+  Shows event count moving graph by time 
+  Shows event sum moving graph by time
+  Shows a grid view of data
+  Shows a detail view of data
+  
+  Uses fast API that consumes/emits JSON (extensible to XML)
+  The UI is bui
+  

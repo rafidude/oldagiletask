@@ -1,0 +1,1 @@
+thin --debug --rackup config.ru --port 4567 start

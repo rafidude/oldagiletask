@@ -1,0 +1,18 @@
+AgileTask
+Track & Monitor Business Activity
+
+Feature: AgileTask
+  As a business decision maker
+  In order to track and monitor important business activity
+  I use AgileTask
+  
+  Scenario: Expense tracking
+    Given an expense is submitted by any employee
+    When the expense is more than $500
+    Send a "Big Expense" event
+  
+  Scenario: Warehouse Inventory tracking
+    Given an item moves from manufacturing to inventory
+    When the item is sitting in inventory for more than 1 business day
+    Notify me by email and sms of "Inventory Sitting" event
+  
