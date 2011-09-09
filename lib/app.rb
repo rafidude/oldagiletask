@@ -13,7 +13,8 @@ class DataModel
 end
 
 class AgileTaskApp < Sinatra::Base
-  enable  :sessions, :logging
+  enable :sessions, :logging, :static
+  set :server, 'thin'
   configure :development do
     register Sinatra::Reloader
   end
